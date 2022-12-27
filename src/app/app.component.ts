@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Recipe-App';
+  showButton:number = 1;
+  onButtonCLicked(clicked : number) {
+    this.showButton = clicked;
+  }
 }
